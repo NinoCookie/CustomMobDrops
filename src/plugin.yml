@@ -1,0 +1,13 @@
+name: CustomMobDrops
+author: Ninoo
+version: 1.3
+main: custommobdrops_main.Main
+commands:
+  cmd:
+    description: Main command for CustomMobDrops
+    usage: /cmd
+    aliases: [custommobdrops,cmd,drops]
+
+
+
+

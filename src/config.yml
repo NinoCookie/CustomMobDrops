@@ -1,0 +1,39 @@
+# CustomMobDrops
+# Author: Ninoo
+# Published on Spigot
+
+# If u have any new ideas, just ask, i ll include them for sure:)
+
+# ID'S: https://minecraft-ids.grahamedgecombe.com/
+# Whole list of Enchantments: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
+
+CustomMobDrops:
+  enable: true
+Mobs:
+  Skeleton: # name can be everything
+    unique_id: 1 #unique id identifires configuration in other configs
+    mob_type: skeleton
+    mob_kill_tool: true
+    #mob_kill_tool_items:
+     # - hand
+      #- 276
+    mob_from_spawner: true
+    mob_name: "skeletron"
+    only_drop_special_named_mob: false
+    only_drop_special_named_mob_name: "skeletta"
+    loot_message: "Wow you killed an skeleton and got an enchanted Glowstone for that!"
+    loot_permission: ""
+    loot_first_id: 89
+    loot_second_id: 0
+    loot_amount: 1
+    loot_chance: 10
+    loot_naturaldrop: true
+    loot_transfer_inventory: false
+    loot_worlds:
+      - world
+    loot_enchantments:
+      - DURABILITY-3
+      - LUCK-2
+      - LOOT_BONUS_BLOCKS-2
+    loot_name: Glowing Glowstone
+    loot_lore: It's a Glowstone
